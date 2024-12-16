@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.AOP和Ioc核心基础", "1.AOP和Ioc核心基础", "{60529691-B658-4755-A669-4925224F27E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOPCore", "AOPCore\AOPCore.csproj", "{829DDDDC-4039-42B4-BEBD-944E2F58523D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Unity容器的使用", "2.Unity容器的使用", "{3CE025AF-4ADF-4CBF-977F-1CA00C2980CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUnityContainer", "MyUnityContainer\MyUnityContainer.csproj", "{C2DD5BDD-7E23-48A1-8030-DF3592B30AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUnityContainerByConfig", "MyUnityContainerByConfig\MyUnityContainerByConfig.csproj", "{5EBB7E87-8C1E-4498-B5F5-F7CA1AE58C33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{829DDDDC-4039-42B4-BEBD-944E2F58523D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829DDDDC-4039-42B4-BEBD-944E2F58523D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829DDDDC-4039-42B4-BEBD-944E2F58523D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829DDDDC-4039-42B4-BEBD-944E2F58523D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DD5BDD-7E23-48A1-8030-DF3592B30AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DD5BDD-7E23-48A1-8030-DF3592B30AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DD5BDD-7E23-48A1-8030-DF3592B30AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DD5BDD-7E23-48A1-8030-DF3592B30AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBB7E87-8C1E-4498-B5F5-F7CA1AE58C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBB7E87-8C1E-4498-B5F5-F7CA1AE58C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBB7E87-8C1E-4498-B5F5-F7CA1AE58C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBB7E87-8C1E-4498-B5F5-F7CA1AE58C33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{829DDDDC-4039-42B4-BEBD-944E2F58523D} = {60529691-B658-4755-A669-4925224F27E3}
+		{C2DD5BDD-7E23-48A1-8030-DF3592B30AF1} = {3CE025AF-4ADF-4CBF-977F-1CA00C2980CF}
+		{5EBB7E87-8C1E-4498-B5F5-F7CA1AE58C33} = {3CE025AF-4ADF-4CBF-977F-1CA00C2980CF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EA130F2-E6B2-41C6-9030-F9CA022279D1}
+	EndGlobalSection
+EndGlobal
